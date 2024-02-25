@@ -24,13 +24,13 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox fullName;
 
         /// <summary>
-        /// RequiredFieldValidator1 control.
+        /// fullnameRFV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator fullnameRFV;
 
         /// <summary>
         /// age control.
@@ -42,13 +42,22 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox age;
 
         /// <summary>
-        /// RangeValidator1 control.
+        /// ageRV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        protected global::System.Web.UI.WebControls.RangeValidator ageRV;
+
+        /// <summary>
+        /// ageRFV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ageRFV;
 
         /// <summary>
         /// email control.
@@ -60,13 +69,22 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox email;
 
         /// <summary>
-        /// RegularExpressionValidator1 control.
+        /// emailRegExV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator emailRegExV;
+
+        /// <summary>
+        /// emailRFV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator emailRFV;
 
         /// <summary>
         /// confirmEmail control.
@@ -78,13 +96,22 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox confirmEmail;
 
         /// <summary>
-        /// CompareValidator1 control.
+        /// emailCV control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.WebControls.CompareValidator emailCV;
+
+        /// <summary>
+        /// RequiredFieldValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
 
         /// <summary>
         /// result control.
