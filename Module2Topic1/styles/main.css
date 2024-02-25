@@ -1,0 +1,43 @@
+﻿body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: #FFC0CB;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #FF69B4;
+}
+
+#divContent {
+    padding: 20px;
+}
+
+#footer {
+    background-color: #FFC0CB;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

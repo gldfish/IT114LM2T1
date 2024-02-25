@@ -13,5 +13,32 @@ namespace Module1Exercise1
         {
 
         }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            // code validation for manual checking
+            //try
+            //{
+            //    if (PaymentFileUpload.HasFile)
+            //    {
+
+            //        if ("image/png" == PaymentFileUpload.PostedFile.ContentType || "image/jpg" == PaymentFileUpload.PostedFile.ContentType)
+            //        {
+            //            successLbl.Text = "Success";
+            //        }
+            //        else
+            //        {
+            //            successLbl.Text = "Unsuccessful";
+            //        }
+
+
+            //    }
+            //}
+            //catch 
+            //{
+                
+            //}
+           
+        }
     }
 }

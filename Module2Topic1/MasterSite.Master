@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterSite.master.cs" Inherits="Module2Topic1.MasterSite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <title></title>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="Exercise1.aspx">Exercise 1</a></li>
+            <li><a href="Exercise2.aspx">Exercise 2</a></li>
+            <li><a href="Exercise3.aspx">Exercise 3</a></li>
+            <li><a href="Exercise4.aspx">Exercise 4</a></li>
+            <li><a href="Exercise5.aspx">Exercise 5</a></li>
+        </ul>
+    </nav>
+    
+    <div id="divContent">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <footer id="footer">
+        Copyright Georgette Dalen Cadiz 2024
+    </footer>
+    
+</body>
+</html>
